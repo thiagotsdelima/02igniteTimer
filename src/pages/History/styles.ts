@@ -49,10 +49,9 @@ export const HistoryList = styled.div`
       &:last-child {
         padding-right: 1.5rem;
       }
-      }
+    }
   }
 `
-//como estilizar um tablela de pedidos
 const STATUS_COLORS = {
   yellow: 'yellow-500',
   green: 'green-500',

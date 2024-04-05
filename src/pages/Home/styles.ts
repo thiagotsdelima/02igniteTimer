@@ -16,8 +16,8 @@ export const HomeContainer = styled.main`
 export const BaseCountdownButton = styled.button`
   width: 100%;
   border: 0;
-  pad: 1rem;
-  border-radius: 8 px;
+  padding: 1rem;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,9 +30,9 @@ export const BaseCountdownButton = styled.button`
   }
 `
 export const StartCountdownButton = styled(BaseCountdownButton)`
-  background: ${(props) => props.theme['gray-500']};
+  background: ${(props) => props.theme['green-500']};
   &:not(:disabled):hover {
-    background: ${(props) => props.theme['gray-700']};
+    background: ${(props) => props.theme['green-700']};
   }
 `
 export const StopCountdownButton = styled(BaseCountdownButton)`

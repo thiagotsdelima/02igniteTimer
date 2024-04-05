@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
 
   nav {
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
 
     a {
       width: 3rem;
@@ -19,11 +19,11 @@ export const HeaderContainer = styled.header`
       border-top: 3px solid transparent;
       border-radius: 3px solid transparent;
       &:hover {
-        border-bottom: 3px solid ${(props) => props.theme['gray-500']};
+        border-bottom: 3px solid ${(props) => props.theme['green-500']};
       }
       &:active {
         color: ${(props) => props.theme['gray-500']};
       }
     }
   }
-`;
+`
